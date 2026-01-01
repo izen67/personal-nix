@@ -11,7 +11,7 @@
         # --remember keeps last user, --asterisks hides password,
         # --no-xsession-wrapper avoids wrapper scripts,
         # --cmd launches the session (Hyprland)
-        command = "${pkgs.tuigreet}/bin/tuigreet --remember --asterisks --no-xsession-wrapper --cmd Hyprland";
+        command = "${pkgs.tuigreet}/bin/tuigreet --remember --asterisks --no-xsession-wrapper --cmd start-hyprland";
         user = "greeter"; # special non-privileged user greetd runs under
       };
     };
