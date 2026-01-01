@@ -1,0 +1,42 @@
+[ButtonRebinds][Tablet][HUION Huion Tablet_HS610]
+10=Key,E
+11=Key,Ctrl+Space
+2=Key,B
+3=Key,Control
+4=Key,Ctrl+Alt+O
+5=Key,T
+6=Key,Shift
+7=Key,M
+8=Key,Shift+Space
+9=Key,5
+
+[ButtonRebinds][TabletTool][HUION Huion Tablet_HS610]
+332=Key,Ctrl+Z
+
+[Libinput][1133][49305][Logitech G502 X]
+PointerAcceleration=-0.200
+PointerAccelerationProfile=1
+
+[Libinput][9580][109][HUION Huion Tablet_HS610]
+OutputName=DP-1
+
+[ButtonRebinds][Tablet][HUION Huion Tablet_HS610]
+10=Key,E
+11=Key,Ctrl+Space
+2=Key,B
+4=Key,Ctrl+Alt+O
+5=Key,T
+6=Key,Shift
+7=Key,M
+8=Key,Shift+Space
+9=Key,5
+
+[ButtonRebinds][TabletTool][HUION Huion Tablet_HS610]
+332=Key,Ctrl+Z
+
+[Libinput][1133][49305][Logitech G502 X]
+PointerAcceleration=-0.200
+PointerAccelerationProfile=1
+
+[Libinput][9580][109][HUION Huion Tablet_HS610]
+OutputName=DP-1

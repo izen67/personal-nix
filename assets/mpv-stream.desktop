@@ -1,0 +1,8 @@
+    [Desktop Entry]
+    Type=Application
+    Name=MPV RTSP Stream
+    Exec=sh -c 'sleep 10 && /run/current-system/sw/bin/mpv --no-input-default-bindings --no-border --video-unscaled=yes --no-keepaspect --panscan=1.0 --mute=yes rtsp://192.168.50.227:554/11'
+    Terminal=false
+    StartupNotify=false
+    Categories=AudioVideo
+    Comment=Autostarts MPV with RTSP camera feed

@@ -1,0 +1,21 @@
+{ config, inputs, user,... }:
+
+{
+  imports = [
+    ./hardware-configuration.nix
+
+    ./software/apps.nix
+
+
+    ./hardware/network.nix
+    ./hardware/system.nix
+
+
+     ../../common/desktop/gnome/default.nix
+  ];
+
+  # Attach PC-specific Home Manager files
+  home-manager.users.${user}.imports = [
+    ./home-manager/default.nix
+  ];
+}

@@ -1,0 +1,25 @@
+{ config, inputs, user, ... }:
+
+{
+  imports = [
+    ./hardware-configuration.nix
+
+    ./software/apps.nix
+    ./software/gaming.nix
+    #./software/ollama.nix
+    ./software/vms.nix
+
+
+    ./hardware/mounts.nix
+    ./hardware/network.nix
+    ./hardware/system.nix
+
+
+    ../../common/desktop/hyprland/default.nix
+  ];
+
+  # Attach PC-specific Home Manager files
+  home-manager.users.${user}.imports = [
+    ./home-manager/default.nix
+  ];
+}
