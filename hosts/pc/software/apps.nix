@@ -13,8 +13,6 @@
     discord-canary
     vesktop
     filen-desktop
-    obsidian
-    jellyfin-desktop
 
     # from external personal flake
     #personal.blender-bin
