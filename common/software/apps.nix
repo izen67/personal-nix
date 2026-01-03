@@ -38,6 +38,7 @@
     starship
     yazi
     kdePackages.kate
+    kdePackages.gwenview
     glib
 
     # Multimedia / Audio Tools
