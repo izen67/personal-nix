@@ -9,8 +9,9 @@
 
 # Attach hyprland Home Manager configs only when this desktop is active
   home-manager.users.${user}.imports = [
-    # Main hyprland config
+    # Main hyprland config and theme
     ../../home-manager/hyprland/hyprland.nix
+    ../../home-manager/hyprland/theme.nix
 
     # Choose what dotfiles to use (custom or noctalia)
     #../../home-manager/hyprland/custom/default.nix
