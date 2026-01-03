@@ -54,6 +54,7 @@
     mpv 
     cliphist 
     gnome-settings-daemon
+    gsettings-desktop-schemas
     libdbusmenu-gtk3
 
     ## Wayland / Hyprland stack
