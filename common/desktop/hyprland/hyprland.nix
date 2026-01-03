@@ -32,8 +32,8 @@
     enable = true;
     defaultApplications = {
       # File manager
-      "inode/directory" = [ "org.kde.dolphin.desktop" ];
-      "x-directory/normal" = [ "org.kde.dolphin.desktop" ];
+      "inode/directory" = [ "org.gnome.Nautilus.desktop" ];
+      "x-directory/normal" = [ "org.gnome.Nautilus.desktop" ];
   
       # Text and scripts
       "text/plain" = [ "org.kde.kate.desktop" ];
