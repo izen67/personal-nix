@@ -106,6 +106,10 @@
     nautilus
   ];
 
+  programs.nautilus-open-any-terminal = {
+    enable = true;
+    terminal = "kitty";
+  };
   # ────────────────────────────── Fonts ────────────────────────────── 
   fonts.fontconfig.enable = true;
   fonts.enableDefaultPackages = true;
