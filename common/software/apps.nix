@@ -38,6 +38,7 @@
     starship
     yazi
     kdePackages.kate
+    glib
 
     # Multimedia / Audio Tools
     pavucontrol
