@@ -103,16 +103,7 @@
 
     ## File management / Desktop
     gnome-disk-utility
-    kdePackages.systemsettings
-    # Dolphin
-    kdePackages.dolphin
-    # SVG icon support (required, otherwise blank icons)
-    kdePackages.qtsvg
-    # KIO core + extras for network protocols
-    kdePackages.kio
-    kdePackages.kio-extras
-    # Optional but recommended: mount remote locations via FUSE
-    kdePackages.kio-fuse
+    nautilus
   ];
 
   # ────────────────────────────── Fonts ────────────────────────────── 
