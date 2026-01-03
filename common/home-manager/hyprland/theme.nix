@@ -45,8 +45,8 @@
     enable = true;
     platformTheme.name = "gtk";
     style = {
-      name = "adwaita-dark";
-      package = pkgs.adwaita-qt;
+      name = "breeze";
+      package = pkgs.kdePackages.breeze;
     };
   };
 
@@ -57,5 +57,6 @@
     bibata-cursors
     adwaita-icon-theme
     adwaita-qt
+    kdePackages.breeze
   ];
 }
