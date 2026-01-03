@@ -32,8 +32,8 @@
     enable = true;
     defaultApplications = {
       # File manager
-      "inode/directory" = [ "nemo.desktop" ];
-      "x-directory/normal" = [ "nemo.desktop" ];
+      "inode/directory" = [ "org.kde.dolphin.desktop" ];
+      "x-directory/normal" = [ "org.kde.dolphin.desktop" ];
   
       # Text and scripts
       "text/plain" = [ "org.kde.kate.desktop" ];
@@ -102,12 +102,17 @@
     blueman
 
     ## File management / Desktop
-    nemo-with-extensions
-    gnome-disk-utility           
-    gnome-system-monitor        
+    gnome-disk-utility
     kdePackages.systemsettings
-    kdePackages.plasma-systemmonitor
-    kdePackages.plasma-workspace # needed for xembedsniproxy
+    # Dolphin
+    kdePackages.dolphin
+    # SVG icon support (required, otherwise blank icons)
+    kdePackages.qtsvg
+    # KIO core + extras for network protocols
+    kdePackages.kio
+    kdePackages.kio-extras
+    # Optional but recommended: mount remote locations via FUSE
+    kdePackages.kio-fuse
   ];
 
   # ────────────────────────────── Fonts ────────────────────────────── 
