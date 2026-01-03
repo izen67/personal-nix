@@ -26,27 +26,10 @@
 
       #### Environment
       env = [
-        # Global color-scheme contract
-        "XDG_COLOR_SCHEME,prefer-dark"
+        "ELECTRON_OZONE_PLATFORM_HINT,wayland"
       
-        # GTK3 fallback only (GTK4 ignores this)
-        "GTK_THEME,adw-gtk3-dark"
-      
-        # Cursors
-        "XCURSOR_THEME,Bibata-Modern-Classic"
-        "HYPRCURSOR_THEME,Bibata-Modern-Classic"
-      
-        # Wayland identity
-        "XDG_SESSION_TYPE,wayland"
         "XDG_CURRENT_DESKTOP,Hyprland"
         "XDG_SESSION_DESKTOP,Hyprland"
-      
-        # Electron Wayland support (not theming)
-        "ELECTRON_OZONE_PLATFORM_HINT,wayland"
-      ];
-
-      exec-once = [
-        "gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
       ];
 
       # Set global scale to 1
