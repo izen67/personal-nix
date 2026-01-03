@@ -72,11 +72,6 @@
     kdePackages.systemsettings
     kdePackages.plasma-systemmonitor
     kdePackages.plasma-workspace # needed for xembedsniproxy
-
-    ## Theming
-    adw-gtk3 
-    bibata-cursors 
-    papirus-icon-theme
   ];
 
   # ────────────────────────────── Fonts ────────────────────────────── 
