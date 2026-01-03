@@ -103,6 +103,7 @@
 
     ## File management / Desktop
     gnome-disk-utility
+    file-roller
     nautilus
   ];
 
