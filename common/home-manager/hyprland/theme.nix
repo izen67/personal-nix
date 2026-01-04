@@ -24,8 +24,8 @@
 
   qt = {
     enable = true;
-    platformTheme.name = "qt6ct";
-    style.name = "Adwaita-Dark";
+    platformTheme.name = "qt5ct";
+    style.name = "adwaita-dark";
   };
 
   dconf.settings = {
