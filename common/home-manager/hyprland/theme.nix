@@ -14,8 +14,8 @@
     };
 
     iconTheme = {
-      name = "Kanagawa";
-      package = pkgs.kanagawa-icon-theme;
+      name = "Papirus-Dark";
+      package = pkgs.papirus-icon-theme;
     };
 
     cursorTheme = {
