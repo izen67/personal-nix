@@ -9,12 +9,12 @@
 
     # GTK3 only
     theme = {
-      name = "adw-gtk3-dark";
+      name = "Kanagawa-BL-LB-Dark-Dragon";
       package = pkgs.kanagawa-gtk-theme;
     };
 
     iconTheme = {
-      name = "Papirus-Dark";
+      name = "Kora-Dark";
       package = pkgs.kora-icon-theme;
     };
 
