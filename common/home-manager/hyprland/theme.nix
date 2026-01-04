@@ -31,10 +31,6 @@
     style.name = "adwaita-dark";
   };
 
-  dconf.settings = {
-    "org/gnome/desktop/interface".color-scheme = "prefer-dark";
-  };
-
   # dconf is used only for settings not fully abstracted by HM
   # and for non-GTK consumers (portals, Electron, Qt integration)
   dconf.settings = {
