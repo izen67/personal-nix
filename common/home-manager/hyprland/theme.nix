@@ -60,4 +60,8 @@
     gtk.enable = false;
     x11.enable = true;
   };
+
+  home.packages = with pkgs; [
+    kdePackages.breeze
+  ];
 }
