@@ -36,7 +36,7 @@
         };
 
         Icons = {
-          Theme = "Papirus-Dark";
+          Theme = "Colloid-Dark";
         };
       };
     };
