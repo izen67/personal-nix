@@ -27,8 +27,21 @@
   
   qt = {
     enable = true;
+  
     platformTheme.name = "gtk";
     style.name = "adwaita-dark";
+  
+    kde.settings = {
+      kdeglobals = {
+        General = {
+          ColorScheme = "BreezeDark";
+        };
+  
+        Icons = {
+          Theme = "Papirus-Dark";
+        };
+      };
+    };
   };
 
   # dconf is used only for settings not fully abstracted by HM
