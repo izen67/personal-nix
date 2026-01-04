@@ -91,6 +91,7 @@
     ydotool 
     gnome-settings-daemon
     libdbusmenu-gtk3
+    nwg-look
 
     ## Wayland / Hyprland stack
     wayland-protocols 
