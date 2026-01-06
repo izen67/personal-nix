@@ -15,34 +15,34 @@
     ];
   };
 
-  fileSystems."/mnt" = {
-    device = "192.168.50.101:/MEDIA";
-    fsType = "nfs";
-    options = [
-      "_netdev"
-      "noatime"
-      "x-systemd.automount"
-    ];
-  };
+fileSystems."/mnt/media" = {
+  device = "192.168.50.101:/MEDIA";
+  fsType = "nfs";
+  options = [
+    "_netdev"
+    "noatime"
+    "x-systemd.automount"
+  ];
+};
 
-  fileSystems."/mnt" = {
-    device = "192.168.50.101:/FILEBROWSER";
-    fsType = "nfs";
-    options = [
-      "_netdev"
-      "noatime"
-      "x-systemd.automount"
-    ];
-  };
+fileSystems."/mnt/filebrowser" = {
+  device = "192.168.50.101:/FILEBROWSER";
+  fsType = "nfs";
+  options = [
+    "_netdev"
+    "noatime"
+    "x-systemd.automount"
+  ];
+};
 
-  fileSystems."/mnt" = {
-    device = "192.168.50.101:/AUDIOBOOKSHELF";
-    fsType = "nfs";
-    options = [
-      "_netdev"
-      "noatime"
-      "x-systemd.automount"
-    ];
-  };
+fileSystems."/mnt/audiobookshelf" = {
+  device = "192.168.50.101:/AUDIOBOOKSHELF";
+  fsType = "nfs";
+  options = [
+    "_netdev"
+    "noatime"
+    "x-systemd.automount"
+  ];
+};
 
 }
