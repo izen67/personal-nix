@@ -10,6 +10,7 @@
     inetutils
     dnsutils
     cifs-utils
+    nfs-utils
 
     # Filesystem & Storage Utilities 
     ntfs3g
