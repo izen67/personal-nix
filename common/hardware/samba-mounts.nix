@@ -25,6 +25,16 @@ fileSystems."/mnt/media" = {
   ];
 };
 
+fileSystems."/mnt/media2" = {
+  device = "192.168.50.101:/MEDIA2";
+  fsType = "nfs";
+  options = [
+    "_netdev"
+    "noatime"
+    "x-systemd.automount"
+  ];
+};
+
 fileSystems."/mnt/filebrowser" = {
   device = "192.168.50.101:/FILEBROWSER";
   fsType = "nfs";
