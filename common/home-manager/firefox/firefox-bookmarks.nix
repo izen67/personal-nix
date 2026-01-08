@@ -16,9 +16,13 @@
           {
             toolbar = true; # this actually makes them show up on the toolbar
             bookmarks = [
-              { name = "ZM - Console"; url = "http://192.168.50.53:8095/"; }
-              { name = "FileList"; url = "https://filelist.io/"; }
-              { name = "ChatGPT"; url = "https://chatgpt.com/"; }
+              { name = "Proxmox"; url = "http://zoneminder:8095/"; }
+              { name = "ZM"; url = "http://zoneminder:8095/"; }
+              { name = "OMV"; url = "http://openmediavault/"; }
+              { name = "qBittorrent"; url = "http://arr:8080/"; }
+              { name = "Sonarr"; url = "http://arr:8989/"; }
+              { name = "Radarr"; url = "http://arr:7878/"; }
+              { name = "Prowlarr"; url = "http://arr:9696/"; }
               { name = "WhatsApp"; url = "https://web.whatsapp.com/#"; }
             ];
           }
@@ -26,8 +30,6 @@
           {
             name = "Others";
             bookmarks = [
-              { name = "Gemini"; url = "https://gemini.google.com/app"; }
-              { name = "Perplexity"; url = "https://www.perplexity.ai/"; }
               { name = "Free Download Books"; url = "https://oceanofpdf.com/"; }
               { name = "SquidWTF"; url = "https://eu.qobuz.squid.wtf/"; }
               { name = "Anna’s Archive"; url = "https://annas-archive.org/"; }
