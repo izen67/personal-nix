@@ -20,10 +20,10 @@
               { name = "ZM"; url = "http://zoneminder:8095/"; }
               { name = "OMV"; url = "http://openmediavault/"; }
               { name = "qBittorrent"; url = "http://arr:8080/"; }
+              { name = "Jellyseerr"; url = "http://arr:5055/"; }
               { name = "Sonarr"; url = "http://arr:8989/"; }
               { name = "Radarr"; url = "http://arr:7878/"; }
               { name = "Prowlarr"; url = "http://arr:9696/"; }
-              { name = "WhatsApp"; url = "https://web.whatsapp.com/#"; }
             ];
           }
 
