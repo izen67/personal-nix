@@ -36,7 +36,7 @@ fileSystems."/mnt/media2" = {
 };
 
 fileSystems."/mnt/filebrowser" = {
-  device = "192.168.50.101:/FILEBROWSER";
+  device = "192.168.50.101:/OPENCLOUD";
   fsType = "nfs";
   options = [
     "_netdev"
