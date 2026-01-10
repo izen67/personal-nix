@@ -112,6 +112,9 @@
               wheelDownExec = "";
               wheelDownUpdateText = false;
             }
+          {
+              id = "plugin:privacy-indicator";
+          }
           ];
 
           center = [
