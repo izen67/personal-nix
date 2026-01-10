@@ -209,38 +209,76 @@
       ];
 
       #### Window rules
-      windowrulev2 = [
-        "suppressevent maximize, class:.*"
-        "nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0"
-
-        # ──────── Floating utilities ────────
-        "float, class:^(.blueman-manager-wrapped)$"
-        "center, class:^(.blueman-manager-wrapped)$"
-
-        "float, class:^(nm-connection-editor)$"
-        "center, class:^(nm-connection-editor)$"
-
-        "float, class:^(org.pulseaudio.pavucontrol)$"
-        "center, class:^(org.pulseaudio.pavucontrol)$"
-
-        "float, title:^(Open File)$"
-        "float, title:^(Save File)$"
-        "center, title:^(Open File)$"
-      
-        # Main window tiled
-        "tile, class:^(steam)$, title:^(Steam)$"
-        # All other Steam windows float
-        "float, class:^(steam)$, title:^(?!Steam$).*"
-
+      windowrule = [
+        # Bluetooth Manager
+        {
+          name = "windowrule-1";
+          float = "on";
+          center = "on";
+          "match:class" = "^(.blueman-manager-wrapped)$";
+        }
+    
+        # Network Manager
+        {
+          name = "windowrule-2";
+          float = "on";
+          center = "on";
+          "match:class" = "^(nm-connection-editor)$";
+        }
+    
+        # PulseAudio Volume Control
+        {
+          name = "windowrule-3";
+          float = "on";
+          center = "on";
+          "match:class" = "^(org.pulseaudio.pavucontrol)$";
+        }
+    
+        # File dialogs
+        {
+          name = "windowrule-4";
+          float = "on";
+          center = "on";
+          "match:title" = "^(Open File)$";
+        }
+    
+        {
+          name = "windowrule-5";
+          float = "on";
+          "match:title" = "^(Save File)$";
+        }
+    
         # ──────── Style tweaks ────────
-        "opacity 0.9, class:^(org.kde.dolphin)$"
-        "opacity 0.9, class:^(VSCodium)$"
-        "opacity 0.9, class:^(vesktop|discord)$"
-
+        {
+          name = "windowrule-8";
+          opacity = "0.9";
+          "match:class" = "^(org.gnome.Nautilus)$";
+        }
+    
+        {
+          name = "windowrule-10";
+          opacity = "0.9";
+          "match:class" = "^(vesktop|discord)$";
+        }
+    
         # ──────── Tearing ────────
-        "immediate, title:.*\.exe"
-        "immediate, title:.*minecraft.*"
-        "immediate, class:^(steam_app).*"
+        {
+          name = "windowrule-11";
+          immediate = "on";
+          "match:title" = ".*\\.exe";
+        }
+    
+        {
+          name = "windowrule-12";
+          immediate = "on";
+          "match:title" = ".*minecraft.*";
+        }
+    
+        {
+          name = "windowrule-13";
+          immediate = "on";
+          "match:class" = "^(steam_app).*";
+        }
       ];
 
       workspace = [
