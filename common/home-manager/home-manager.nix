@@ -11,7 +11,7 @@
   imports = [
     ./firefox/firefox-bookmarks.nix
     ./yazi/yazi.nix
-    ./vim/neovim.nix
+    #./vim/neovim.nix
     ./terminal/fish.nix
     ./terminal/starship.nix
     ./wallpaperengine/linux-wallpaperengine.nix
