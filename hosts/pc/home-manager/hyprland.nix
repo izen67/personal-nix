@@ -28,7 +28,7 @@
     # ──────── Window rules ────────
     # MPV
     windowrule {
-      name = windowrule-1
+      name = mpv
       workspace = 10
       no_initial_focus = on
       match:class = ^(mpv)$
@@ -36,7 +36,7 @@
     
     # Steam - Main window tiled
     windowrule {
-      name = windowrule-6
+      name = steam-tile
       tile = on
       match:class = ^(steam)$
       match:title = ^(Steam)$
@@ -44,7 +44,7 @@
     
     # Steam - All other windows float
     windowrule {
-      name = windowrule-7
+      name = steam-float
       float = on
       match:class = ^(steam)$
       match:title = ^(?!Steam$).*
@@ -52,21 +52,21 @@
 
     # All Steam UI (main window, friends list, etc.)
     windowrule {
-      name = windowrule-2
+      name = steam-workspace
       workspace = 4
       match:class = ^(steam)$
     }
 
     # Steam games
     windowrule {
-      name = windowrule-3
+      name = steam-games-workspace
       workspace = 5
       match:class = ^(steam_app.*)$
     }
 
     # Discord
     windowrule {
-      name = windowrule-4
+      name = discord-workspace
       workspace = 3
       no_initial_focus = on
       match:class = ^(discord*)$
@@ -74,7 +74,7 @@
 
     # Firefox
     windowrule {
-      name = windowrule-5
+      name = firefox-workspace
       workspace = 2
       match:class = ^(firefox*)$
     }
