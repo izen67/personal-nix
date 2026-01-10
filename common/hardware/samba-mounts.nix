@@ -35,8 +35,8 @@ fileSystems."/mnt/media2" = {
   ];
 };
 
-fileSystems."/mnt/OPENCLOUD" = {
-  device = "192.168.50.101:/OPENCLOUD";
+fileSystems."/mnt/cloud" = {
+  device = "192.168.50.101:/CLOUD";
   fsType = "nfs";
   options = [
     "_netdev"
