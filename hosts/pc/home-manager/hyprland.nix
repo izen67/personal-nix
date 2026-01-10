@@ -46,6 +46,7 @@
     windowrule {
       name = steam-float
       float = on
+      center = on
       match:class = ^(steam)$
       match:title = ^(?!Steam$).*
     }
