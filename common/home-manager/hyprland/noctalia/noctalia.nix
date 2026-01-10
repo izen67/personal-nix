@@ -28,13 +28,13 @@
       version = 1;
     };
 
-    pluginSettings = {
-      privacy-indicator = {
-        hideInactive = false;
-        iconSpacing = "4";
-        removeMargins = false;
-      };
-    };
+#    pluginSettings = {
+#      privacy-indicator = {
+#        hideInactive = false;
+#        iconSpacing = "4";
+#        removeMargins = false;
+#      };
+#    };
 
     settings = {
       appLauncher = {
